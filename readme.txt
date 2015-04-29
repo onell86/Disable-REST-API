@@ -2,14 +2,16 @@
 Contributors: dmchale
 Tags: admin, api, json, REST, rest-api, disable
 Requires at least: 4.0
-Tested up to: 4.0
-Stable tag: 1.0
+Tested up to: 4.2.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Uses the built-in filters of the JSON REST API to disable its functionality.
 
 == Description ==
+
+** Now supporting the 2.0 beta API **
 
 The JSON REST API is currently in development via the [JSON REST API](https://wordpress.org/plugins/json-rest-api/)
 plugin by Ryan McCue. Soon, this functionality will become a part of WordPress Core. While this is very exciting news
@@ -40,10 +42,16 @@ n/a
 
 == Changelog ==
 
+= 1.1 =
+* Updated to support the new filters created in the 2.0 beta API
+
 = 1.0 =
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Now with support for the 2.0 beta API filters
 
 = 1.0 =
 * Initial Release
